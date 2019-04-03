@@ -7,6 +7,8 @@ namespace FlightApp.Models
 {
     public class FlightData
     {
-        private int FlightData;
+       public int FlightId { get; set; }
+
+
     }
 }

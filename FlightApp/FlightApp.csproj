@@ -154,6 +154,7 @@
     </Compile>
     <Compile Include="Models\Airport.cs" />
     <Compile Include="Models\FlightData.cs" />
+    <Compile Include="Models\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

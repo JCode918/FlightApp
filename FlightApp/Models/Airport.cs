@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI.WebControls.WebParts;
 
 namespace FlightApp.Models
 {
@@ -11,5 +12,6 @@ namespace FlightApp.Models
         public string AirportName { get; set; }
         public string AirportCity { get; set; }
         public int StateId { get; set; }
+        public virtual State State { get; set; }
     }
 }

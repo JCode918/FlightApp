@@ -8,6 +8,7 @@ namespace FlightApp.Models
     public class State
     {
         public int StateId { get; set; }
-        public int StateName { get; set; }
+        public string StateAbbreviaion { get; set; }
+        public string StateName { get; set; }
     }
 }

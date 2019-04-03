@@ -10,6 +10,7 @@ namespace FlightApp.Models
     {
         public int AirportId { get; set; }
         public string AirportName { get; set; }
+        public string AirportAbbreviation { get; set; }
         public string AirportCity { get; set; }
         public int StateId { get; set; }
         public virtual State State { get; set; }

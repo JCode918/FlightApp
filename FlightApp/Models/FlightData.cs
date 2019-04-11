@@ -13,10 +13,10 @@ namespace FlightApp.Models
         public int DestinationAirportId { get; set; }
         public int Distance { get; set; }
         public int CarrierId { get; set; }
-        public int CarrierDelay { get; set; }
-        public int WeatherDelay { get; set; }
-        public int NasDelay { get; set; }
-        public int SecurityDelay { get; set; }
-        public int LateAircraftDelay { get; set; }
+        //public int CarrierDelay { get; set; }
+        //public int WeatherDelay { get; set; }
+        //public int NasDelay { get; set; }
+        //public int SecurityDelay { get; set; }
+        //public int LateAircraftDelay { get; set; }
     }
 }

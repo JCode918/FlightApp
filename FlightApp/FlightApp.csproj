@@ -155,6 +155,8 @@
     <Compile Include="Models\AirlineCarrier.cs" />
     <Compile Include="Models\Airplane.cs" />
     <Compile Include="Models\Airport.cs" />
+    <Compile Include="Models\Delays.cs" />
+    <Compile Include="Models\DelayType.cs" />
     <Compile Include="Models\FlightData.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

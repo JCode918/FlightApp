@@ -9,5 +9,8 @@ namespace FlightApp.Models
     {
         public int AirlineCarrierId { get; set; }
         public string AirlineCarrierName { get; set; }
+        public string AirlineIata { get; set; }
+        public string AirlineIcao { get; set; }
+        public string AirlineCallsign { get; set; }
     }
 }

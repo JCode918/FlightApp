@@ -9,5 +9,6 @@ namespace FlightApp.Models
     {
         public int AirplaneId { get; set; }
         public string AirplaneName { get; set; }
+        public string AirplaneImageFile { get; set; }   
     }
 }

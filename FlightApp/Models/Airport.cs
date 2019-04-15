@@ -18,6 +18,8 @@ namespace FlightApp.Models
         public int AirportAltitude { get; set; }
         public int AirportCityId { get; set; }
         public City City { get; set; }
+        public int StateId { get; set; }
+        public State State { get; set; }
       
     }
 }

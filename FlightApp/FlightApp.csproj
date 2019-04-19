@@ -206,6 +206,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Seed_Data\USAirlineCarrier.csv" />
+    <Content Include="Seed_Data\USAirports.csv" />
+    <Content Include="Seed_Data\City.csv" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
